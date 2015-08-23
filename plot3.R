@@ -20,7 +20,7 @@ png(file = "plot3.png", width = 960, height = 360)
 # make plot for each 4 source types
 plot <- qplot(year, Emissions, data=aggEmissions, facets=.~type,
               main="PM2.5 emissions per source type (Baltimore City, Maryland)", 
-              xlab="Year", ylab="Emissions in year")
+              xlab="Year", ylab="Emissions in year [tons]")
 print(plot)
 
 dev.off()

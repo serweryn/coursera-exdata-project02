@@ -15,6 +15,6 @@ png(file = "plot1.png", width = 480, height = 480)
 
 # plot emissions over years
 plot(aggEmissions$year, aggEmissions$Emissions, type="h", lwd=5, col="red",
-     main="PM2.5 Emissions in US", xlab="Year", ylab="Emissions in year")
+     main="PM2.5 Emissions in US", xlab="Year", ylab="Emissions in year [tons]")
 
 dev.off()
