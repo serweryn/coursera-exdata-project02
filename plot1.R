@@ -1,4 +1,4 @@
-# load datasets only if they aren't 
+# load datasets only if they aren't already loaded
 if (!exists("NEI")) {
   NEI <- readRDS("summarySCC_PM25.rds")
 }
